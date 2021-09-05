@@ -1,0 +1,146 @@
+.start-window {
+    width: 70%;
+    height: 30rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0;
+    color: white
+}
+
+.start-window button {
+    margin-top: 1rem;
+}
+
+.nickname-selector {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 18rem;
+}
+
+.nickname-selector .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.nickname-selector .buttons button {
+    padding: 0.5 1rem;
+    max-width: 14rem;
+}
+
+.nickname-selector .buttons .reset-nickname-button {
+    background-color: transparent;
+    font-size: 12px;
+    color: #7289da;
+}
+
+.nickname-selector .buttons .reset-nickname-button:hover {
+    color: #687dc7;
+}
+
+.chat {
+    color: white;
+    max-width: 55%;
+}
+
+.chat table th {
+    text-align: left;
+}
+
+.chat table {
+    table-layout: fixed;
+}
+.chat table tr td {
+    width: 10rem; 
+}
+
+.chat table tr td:nth-child(1){
+    width: 20rem; 
+}
+
+.chat .create-channel-form{
+    margin-bottom: 2rem;
+}
+
+.chat .create-channel-form .error{
+    color: #ff5151;;
+}
+
+.chat .create-channel-form button{
+    margin: 0 0.5rem
+}
+
+
+.chat table button{
+    padding: 0.3rem 0.6rem;
+    font-size: 1rem
+}
+
+.chat-window {
+    min-width: 40rem;
+}
+
+.chat-window .header {
+    display: flex;
+    align-items: center;
+}
+
+.chat-window .header button {
+    padding: 0.5rem 1rem; 
+    margin-right: 1rem;  
+}
+
+.chat-window ul {
+    min-height: 25rem;
+    background-color: #3a3c40;
+    border-radius: 0.5rem;
+    list-style-type: none;
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+    max-height: 30rem;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-window ul li {
+    display: flex;
+    min-width: 45%;
+}
+
+.chat-window ul li.sender {
+    justify-content: flex-end;
+}
+
+.chat-window .message-input {
+    width: 100%;
+    display: flex;
+}
+
+.chat-window .message-input input {
+    flex: 4;
+}
+
+.chat-window .message-input button {
+    flex: 1;
+    max-width: 10rem;
+    padding: 0.5rem 0.2rem;
+}
+
+.chat-window .message {
+    max-width: 45%;
+    background-color: #2c2f33;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0;
+    word-break: break-word;
+}
+
+.chat-window .message .info {
+    margin-top: 0.2rem;
+    font-size: 12px;
+}
