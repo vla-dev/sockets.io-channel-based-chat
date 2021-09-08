@@ -4,7 +4,7 @@ import API from '../API';
 import ChatWindow from './chat-window';
 import CreateChannelForm from './create-channel-form';
 
-const SOCKETS_SERVER_HOST = 'http://192.168.100.4:8888'
+const SOCKETS_SERVER_HOST = 'http://dejawo.go.ro:8888'
 let socket;
 
 const Chat = (props) => {
